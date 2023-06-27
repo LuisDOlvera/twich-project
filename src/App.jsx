@@ -92,7 +92,7 @@ export default function App() {
                   img="https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg"
                 />
                 <TwichCard
-                  gameName="Grand Thef Auto V"
+                  gameName="Grand Thef Aut"
                   spectators="189.3 k espectadores"
                   tagName="shooter"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg"
@@ -108,6 +108,72 @@ export default function App() {
                   spectators="66.2 k espectadores"
                   tagName="IRL (vida real)"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/518203-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="Final Fantas..."
+                  spectators="92 k espectadores"
+                  tagName="Juego de rol"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/2090279789_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="Diablo IV"
+                  spectators="173.3 k espectadores"
+                  tagName="IRL (Juego de rol)"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/515024-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="Street Fighter 6"
+                  spectators="13.3 k espectadores"
+                  tagName="Peleas"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/55453844_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="BalleBit Rema..."
+                  spectators="24.3 k espectadores"
+                  tagName="Juego de rol"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/496916_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="F1 23"
+                  spectators="12.2 k espectadores"
+                  tagName="Carreras"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/174553474_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="Amnesia: The B..."
+                  spectators="1.5 k espectadores"
+                  tagName="Juego de rol"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/1531824392_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="Aliens: Dark De..."
+                  spectators="9.6 k espectadores"
+                  tagName="Estrategia"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/570278441_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="Layers of Fear"
+                  spectators="9 k espectadores"
+                  tagName="Estrategia"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/504901183_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="UNDAWN"
+                  spectators="1 k espectadores"
+                  tagName="Estrategia"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/79664757_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="Counter-Strike..."
+                  spectators="90 k espectadores"
+                  tagName="Estrategia"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-188x250.jpg"
+                />
+                <TwichCard
+                  gameName="Talk shows y p..."
+                  spectators="17.7 k espectadores"
+                  tagName="IRL (vida real)"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/417752-188x250.jpg"
                 />
               </div>
             </div>
