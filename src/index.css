@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+  background: #0e0e0f;
+}
+
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.layout-princ {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  height: 100%;
+}
+
+.side-nav {
+  background-color: gray;
+  width: 24rem;
+  border: 1px solid red;
+}
+
+.main-princ {
+  width: 100%;
+}
+
+.content-banner {
+  height: 30rem;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.style-image {
+  height: 100%;
+  width: 100%;
+}
+.img-banner {
+  height: 100%;
+  width: 100%;
+}
+
+.contents-side {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bar-scroller-content {
+  padding-right: 15px;
+}
+
+.scrolleable-content {
+  margin-right: -15px;
+}
+
+.sidebar-contents {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.layout-side {
+  display: block;
+  background-color: #202023;
+}
+
+.side-nav-title {
+  background-color: #202023;
+  vertical-align: baseline;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+}
+
+.title-text {
+  color: rgb(239, 239, 241);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.follow-chanels {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-title-chanels {
+  margin-top: 0.5 rem;
+  margin-bottom: 0.5rem;
+  background-color: #202023;
+}
+
+.chanels-text {
+  color: rgb(239, 239, 241);
+  font-size: 13px;
+  font-weight: 600;
+  padding-left: 16px;
+}
+
+.order-options {
+  display: flex;
+  flex-direction: column;
+  background-color: #18181b;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.order-title-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.c-left {
+  display: flex;
+  align-items: self-start;
+}
+
+.core-text {
+  color: black;
+  font-weight: 700;
+  background-color: #ff75e6;
+  display: inline-block;
+  position: relative;
+  line-height: initial;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 1000px;
+  padding: 0.3rem 0.8em;
+  font-size: 75%;
+  margin-right: 15px;
+}
+
+.core-text-der {
+  color: rgb(239, 239, 241);
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.score-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonIcon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.IsFigure {
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.link-cat {
+  color: #bf94ff;
+  text-decoration: none;
+}
+
+.iconexit {
+  height: 10px;
+  width: 10px;
+}
+
+.categories {
+  margin-left: 15px;
+}
+
+.categories-like {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .cards-content {
+  margin-left: 10px;
+} */
+
+.cards-content-princ {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+  list-style: none;
+  margin: 0px -0.5rem;
+}
+
+.card-princ {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.name-game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px;
+}
+
+.data-text {
+  margin-top: 0.5rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.text-game {
+  color: #dedee3;
+  text-decoration: none;
+}
+
+.target {
+  text-decoration: none;
+}
+
+.tree-points-containner {
+  margin-top: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.icon-points {
+  height: 17px;
+  width: 17px;
+}
+
+.core-text-card {
+  color: #adadb8;
+  white-space: nowrap;
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.data-target-espect {
+  color: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.game-genere {
+  margin-top: 0.5rem;
+}
+
+.g-genere-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.g-genere-container-b {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  margin-right: 0rem;
+  vertical-align: middle;
+}
+
+.tag-url {
+  display: inline-block;
+  border-radius: 1000px;
+  color: #adadb8;
+  background-color: #53535f61;
+  height: 1rem;
+  max-width: 100%;
+  text-decoration: none;
+}
+.tag-content {
+  display: flex;
+  align-items: center;
+  padding: 0px 0.8rem;
+}
+
+.truncate-text {
+  font-size: 12px;
+  font-size: 600;
+}
