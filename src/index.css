@@ -5,6 +5,7 @@
 
 html,
 body {
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   height: 100%;
   margin: 0;
@@ -146,6 +147,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   margin-top: 0;
+  text-decoration: none;
 }
 
 .score-button {
@@ -169,6 +171,66 @@ body {
   width: 10px;
 }
 
+.streamers-content {
+  position: relative;
+}
+
+.data-a-id {
+  height: 43px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.sc-avatar {
+  position: relative;
+  background-color: inherit;
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+}
+
+/* .streamer-name {
+  height: 25px;
+} */
+
+.image-avatar {
+  display: block;
+  border-radius: 9000px;
+  width: 100%;
+}
+
+.image-avatar-gray {
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+  display: block;
+  border-radius: 9000px;
+  width: 100%;
+}
+
+.core-text-izq {
+  color: rgb(239, 239, 241);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 10px 5px;
+  text-decoration: none;
+}
+
+.status-str {
+  color: rgb(239, 239, 241);
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  margin: 0.3rem 0.5rem;
+}
+
+.status-text {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
 .categories {
   margin-left: 15px;
 }
@@ -176,7 +238,7 @@ body {
 .categories-like {
   padding-bottom: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .cards-content-princ {
