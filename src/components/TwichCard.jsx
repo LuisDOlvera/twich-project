@@ -2,6 +2,9 @@ export default function TwichCard(props) {
   return (
     <article className="card-princ">
       <div className="card-wrapper">
+        <div className={props.isNew ? "ind-new" : "ind-new-none"}>
+          <span className="ind-new-text">NUEVO</span>
+        </div>
         <div className="card-picture">
           <img src={props.img} alt="chatting" className="game-picture" />
         </div>

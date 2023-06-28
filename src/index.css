@@ -195,6 +195,47 @@ body {
   margin-bottom: 10px;
 }
 
+.card-wrapper {
+  position: relative;
+}
+
+.ind-new-none {
+  margin: 0.5rem 0.6rem;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+}
+
+.ind-new {
+  margin: 0.5rem 0.6rem;
+  opacity: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  background: transparent;
+}
+
+.ind-new-text {
+  color: #000;
+  background-color: #ff75e6;
+  display: inline-block;
+  position: relative;
+  line-height: initial;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 1000px;
+  padding: 0.2rem 0.6rem;
+  font-size: 55%;
+  font-weight: 700;
+}
+
+.card-picture {
+  position: relative;
+}
+
 .game-picture {
   width: 150px;
 }

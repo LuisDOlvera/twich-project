@@ -72,108 +72,189 @@ export default function App() {
                   spectators="557.2 k espectadores"
                   tagName="IRL (vida real)"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/509658-188x250.jpg"
+                  isNew={true}
                 />
                 <TwichCard
                   gameName="Only Up!"
                   spectators="144.4 k espectadores"
                   tagName="Juego de Aventuras"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/245018539_IGDB-188x250.jpg"
+                  isNew={true}
                 />
                 <TwichCard
                   gameName="Fortnite"
                   spectators="77 k espectadores"
                   tagName="shooter"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/33214-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="Minecraft"
                   spectators="67.2 k espectadores"
                   tagName="simulación"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/27471_IGDB-188x250.jpg"
+                  isNew={true}
                 />
                 <TwichCard
                   gameName="Grand Thef Aut"
                   spectators="189.3 k espectadores"
                   tagName="shooter"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="Valorant"
                   spectators="198.1 k espectadores"
                   tagName="shooter"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/516575-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="Deportes"
                   spectators="66.2 k espectadores"
                   tagName="IRL (vida real)"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/518203-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="Final Fantas..."
                   spectators="92 k espectadores"
                   tagName="Juego de rol"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/2090279789_IGDB-188x250.jpg"
+                  isNew={true}
                 />
                 <TwichCard
                   gameName="Diablo IV"
                   spectators="173.3 k espectadores"
                   tagName="IRL (Juego de rol)"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/515024-188x250.jpg"
+                  isNew={true}
                 />
                 <TwichCard
                   gameName="Street Fighter 6"
                   spectators="13.3 k espectadores"
                   tagName="Peleas"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/55453844_IGDB-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="BalleBit Rema..."
                   spectators="24.3 k espectadores"
                   tagName="Juego de rol"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/496916_IGDB-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="F1 23"
                   spectators="12.2 k espectadores"
                   tagName="Carreras"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/174553474_IGDB-188x250.jpg"
+                  isNew={true}
                 />
                 <TwichCard
                   gameName="Amnesia: The B..."
                   spectators="1.5 k espectadores"
                   tagName="Juego de rol"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/1531824392_IGDB-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="Aliens: Dark De..."
                   spectators="9.6 k espectadores"
                   tagName="Estrategia"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/570278441_IGDB-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="Layers of Fear"
                   spectators="9 k espectadores"
                   tagName="Estrategia"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/504901183_IGDB-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="UNDAWN"
                   spectators="1 k espectadores"
                   tagName="Estrategia"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/79664757_IGDB-188x250.jpg"
+                  isNew={false}
                 />
                 <TwichCard
                   gameName="Counter-Strike..."
                   spectators="90 k espectadores"
                   tagName="Estrategia"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-188x250.jpg"
+                  isNew={true}
                 />
                 <TwichCard
                   gameName="Talk shows y p..."
                   spectators="17.7 k espectadores"
                   tagName="IRL (vida real)"
                   img="https://static-cdn.jtvnw.net/ttv-boxart/417752-188x250.jpg"
+                  isNew={false}
+                />
+                <TwichCard
+                  gameName="Call of Duty: War..."
+                  spectators="37.1 k espectadores"
+                  tagName="Shooter"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/512710-285x380.jpg"
+                  isNew={true}
+                />
+                <TwichCard
+                  gameName="Tom Clancy's Ra..."
+                  spectators="13 k espectadores"
+                  tagName="Peleas"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/460630_IGDB-285x380.jpg"
+                  isNew={false}
+                />
+                <TwichCard
+                  gameName="Talk shows y p..."
+                  spectators="17.7 k espectadores"
+                  tagName="IRL (vida real)"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/417752-188x250.jpg"
+                  isNew={false}
+                />
+                <TwichCard
+                  gameName="Rocket League"
+                  spectators="14.8 k espectadores"
+                  tagName="Carreras o conducción"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/30921-285x380.jpg"
+                  isNew={false}
+                />
+                <TwichCard
+                  gameName="Dead by Daylight"
+                  spectators="27.1 k espectadores"
+                  tagName="IRL (vida real)"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/491487-285x380.jpg"
+                  isNew={true}
+                />
+                <TwichCard
+                  gameName="Dota 2"
+                  spectators="43.1 k espectadores"
+                  tagName="Estrategia"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/29595-285x380.jpg"
+                  isNew={false}
+                />
+                <TwichCard
+                  gameName="ROBLOX"
+                  spectators="5.3 k espectadores"
+                  tagName="IRL (vida real)"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/23020_IGDB-285x380.jpg"
+                  isNew={true}
+                />
+                <TwichCard
+                  gameName="BattleBit Rem..."
+                  spectators="17.8 k espectadores"
+                  tagName="Shooter"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/496916_IGDB-285x380.jpg"
+                  isNew={false}
+                />
+                <TwichCard
+                  gameName="XDefiant"
+                  spectators="34 k espectadores"
+                  tagName="Shooter"
+                  img="https://static-cdn.jtvnw.net/ttv-boxart/780302568-285x380.jpg"
+                  isNew={false}
                 />
               </div>
             </div>
