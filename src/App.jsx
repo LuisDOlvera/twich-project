@@ -85,7 +85,7 @@ export default function App() {
                     <TwichCard
                       gameName={card.gameName}
                       spectators={card.spectators}
-                      tagNeme={card.tagNeme}
+                      tagName={card.tagName}
                       img={card.img}
                       isNew={card.isNew}
                     />
